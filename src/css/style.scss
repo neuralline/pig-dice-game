@@ -32,7 +32,6 @@ body {
 
 .intro {
   position: relative;
-  background: #0c0c0c;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 350px;
   width: 550px;
@@ -41,6 +40,12 @@ body {
   margin: 100px auto;
   padding: 30px;
   display: block;
+  background: rgba(0, 0, 0, 0.2);
+}
+.piggy {
+  height: 120px;
+  right: 80px;
+  top: 40%;
 }
 .container {
   width: 100%;
