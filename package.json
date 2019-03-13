@@ -1,0 +1,24 @@
+{
+  "name": "pig-dice-game",
+  "version": "0.1.0",
+  "description": "JavaScript pig dice game",
+  "main": "index.html",
+  "repository": "https://github.com/neuralline/pig-dice-game",
+  "homepage": "piggy-dice-game.netlify.com",
+  "author": "Darik Hart",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [
+    "javascript games",
+    "pig dice",
+    "card game",
+    "object oriented javascript"
+  ],
+  "devDependencies": {
+    "parcel": "^1.12.0",
+    "sass": "^1.17.2"
+  }
+}

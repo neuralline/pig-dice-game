@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.scss" />
+    <title>JS pig dice game - Neural Line</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="intro" id="introScreen">
+        <div class="content">
+          <p class="title">JS pig dice game - Neural Line</p>
+          <h1>
+            Ready<br />
+            Piggy Dice
+          </h1>
+          <p>
+            <input
+              type="radio"
+              name="gameType"
+              value="1"
+              id="gameType"
+              checked
+            /><label>single dice</label>
+            <input type="radio" name="gameType" value="0" /><label
+              >double dice</label
+            >
+          </p>
+          <p>
+            Select number of players
+          </p>
+          <div class="button">
+            <select id="selectPlayers" class="select">
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option> </select
+            ><button type="submit" id="submit" class="submit">Start</button>
+          </div>
+        </div>
+      </div>
+      <div class="roller-container" id="rollerContainer">
+        <div class="roll-button" id="rollButton">
+          ROLL
+          <div class="roll-number" id="rollsButtonInfo">00</div>
+        </div>
+        <div class="roll-button" id="passButton">
+          BANK
+          <div class="roll-number" id="passButtonInfo">00</div>
+        </div>
+      </div>
+
+      <div class="container" id="cardHolder"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
