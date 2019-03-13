@@ -4,7 +4,7 @@
   "description": "JavaScript pig dice game",
   "main": "index.html",
   "repository": "https://github.com/neuralline/pig-dice-game",
-  "homepage": "piggy-dice-game.netlify.com",
+  "homepage": "https://piggy-dice-game.netlify.com/",
   "author": "Darik Hart",
   "license": "MIT",
   "scripts": {
